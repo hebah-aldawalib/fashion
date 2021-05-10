@@ -11,7 +11,6 @@ if (age < 12) {
 
 else {
   alert("hello");
-
   var sex = prompt('are you man or women?');
   while (sex !== 'man' && sex !== 'women') {
     sex = prompt('plese answer whith man or women');
@@ -36,11 +35,14 @@ if (love == 'yes') {
 else {
   document.write('<div>'+'<img src="https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-sad-depressed-and-sad-emoticon-with-tear-on-face-png-image_317660.jpg" width="200px">'+'</div>');
   
+
 }
+
 }
-into();
+intro();
 
 var getrating =function() 
+
 
 {
   var heart = prompt('how many haert you will give our websit?');
