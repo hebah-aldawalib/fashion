@@ -1,3 +1,7 @@
+function intro()
+{
+
+
 var age = prompt('how old are?');
 console.log(age);
 
@@ -27,15 +31,28 @@ console.log(love);
 if (love == 'yes') {
   console.log('heba')
   document.write('<div>'+'<img src="https://cf2.s3.souqcdn.com/item/2017/04/01/22/36/23/88/item_XL_22362388_30324522.jpg" width="100px">'+'</div>')
-  // document.write('<img src="https://cf2.s3.souqcdn.com/item/2017/04/01/22/36/23/88/item_XL_22362388_30324522.jpg" width="200px">');
-}else {
+  
+}
+else {
   document.write('<div>'+'<img src="https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-sad-depressed-and-sad-emoticon-with-tear-on-face-png-image_317660.jpg" width="200px">'+'</div>');
+  
+}
+}
+into();
+
+var getrating =function() 
+
+{
+  var heart = prompt('how many haert you will give our websit?');
+  for ( var i=0 ; i<heart;i++)
+  {
+    document.write('<div>'+'<img src="https://cf2.s3.souqcdn.com/item/2017/04/01/22/36/23/88/item_XL_22362388_30324522.jpg" width="100px">'+'</div>');
+  
+  }
+
 }
 
 
-var rateing = prompt('how many haert you will give our websit?')
-console.log(love);
-
-
+getrating();
 
 
